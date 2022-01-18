@@ -1,0 +1,13 @@
+// PAGE START | HEADER
+/*|- HEADER PAGE START -|*/
+.header {
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+  &__img {
+      height: auto;
+      width: 100%;
+      
+  }
+}

@@ -1,0 +1,40 @@
+// PAGE START | COMPONENTS CARD
+/*|- COMPONENTS CARD START PAGE STYLE |-*/
+
+.card {
+    width: 100%;
+    padding: 1rem;
+    font-family: $ubuntu;
+    border: 1px solid $black;
+    margin: 1rem;
+    &__body {
+        padding: 1rem;
+    }
+    &__title {
+    font-size: $large;
+    margin: 0;
+  }
+    &__description {
+    font-size: $small;
+    }
+    &__author {
+        font-weight: $bold;
+    }
+}
+.img {
+  &__top {
+      width: 100%;
+      object-fit: fill;
+  }
+}
+
+.icon {
+  &__comment {
+  }
+  &__like {
+  }
+  &__share {
+  }
+  &__view {
+  }
+}
