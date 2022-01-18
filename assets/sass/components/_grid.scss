@@ -1,7 +1,8 @@
+//GRID COMPONENT
+/*|- GRID LAYOUT COMPONENTS -|*/
 .main{
     display: grid;
-    grid-auto-rows: 30;
-    gap: 4rem;
+    gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
 
 }

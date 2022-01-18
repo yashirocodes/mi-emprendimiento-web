@@ -403,6 +403,151 @@ template {
   width: 100%;
 }
 
+/*|- ASIDE CONTENT STYLE -|*/
+.faq {
+  font-family: "Poppins", sans-serif;
+  margin: 0 1rem;
+  border: 1px solid #000;
+}
+.faq__title {
+  text-transform: uppercase;
+  font-size: xx-large;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.img__profile {
+  width: 10rem;
+  border-radius: 50rem;
+  -webkit-border-radius: 50rem;
+  -moz-border-radius: 50rem;
+  -ms-border-radius: 50rem;
+  -o-border-radius: 50rem;
+  border: 2px solid #000;
+}
+
+.rrss__icon {
+  font-size: 2.1875rem;
+  margin: 0 1rem;
+  color: #000;
+}
+
+.about {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.about__img {
+  width: 100%;
+  text-align: center;
+}
+.about__text {
+  padding: 0 2rem;
+  text-align: justify;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.courses {
+  font-family: "Ubuntu", sans-serif;
+}
+.courses__link {
+  text-decoration: none;
+}
+.courses__list {
+  list-style: circle;
+}
+
+.other {
+  padding: 0 3rem;
+}
+.other__courses {
+  padding: 1rem;
+}
+.other__title {
+  text-align: center;
+  background-color: #060606;
+  color: #fff;
+}
+
+/*|- FOOTER SECTION -|*/
+.footer {
+  width: 100%;
+  color: #fff;
+  background-color: #000;
+  font-family: "Poppins", sans-serif;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.end {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.end__li {
+  list-style: none;
+}
+.end__link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 1rem;
+  transition: all 300ms ease-in;
+  -webkit-transition: 200ms ease-out;
+  -moz-transition: all 300ms ease-in;
+  -ms-transition: all 300ms ease-in;
+  -o-transition: all 300ms ease-in;
+}
+.end__link:hover {
+  color: #ffa600;
+}
+.end__ul {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+}
+.input__email {
+  color: #000;
+  padding: 0 0.5rem;
+  width: 50%;
+  border: none;
+}
+.input__email:focus {
+  background: #ffaf6d;
+  outline: none;
+}
+.input__button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: small;
+  padding: 0 0.5rem;
+  background: #ffaf6d;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  transition: 200ms;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -ms-transition: 200ms;
+  -o-transition: 200ms;
+}
+.input__button:hover {
+  background: #fff;
+}
+
 .courses {
   margin: 0 1rem;
   border: 1px solid #000;
@@ -437,10 +582,14 @@ template {
   object-fit: fill;
 }
 
+.icon__text {
+  margin-right: 1rem;
+}
+
+/*|- GRID LAYOUT COMPONENTS -|*/
 .main {
   display: grid;
-  grid-auto-rows: 30;
-  gap: 4rem;
+  gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr));
 }
 
