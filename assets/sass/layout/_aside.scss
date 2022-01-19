@@ -67,3 +67,11 @@
     color: $white;
   }
 }
+.animation{
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  .svg__img{
+    max-width: 80%;
+  }
+}
