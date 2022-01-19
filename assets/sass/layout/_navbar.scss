@@ -81,6 +81,9 @@
   .nav__hamburger {
     display: flex;
     opacity: 1;
+    &:hover{
+      color: $orange
+    }
   }
 
   .nav__menu {

@@ -1,13 +1,3 @@
-@media screen and (min-width: 600px) {
-  .burger {
-    display: none !important;
-  }
-}
-@media (max-width: 600px) {
-  .navbar__li {
-    display: none !important;
-  }
-}
 /*|- VARIABLE PAGE START -|*/
 /*|- COLOR SCHEMES -|*/
 /*|- PRIMARY COLOR SCHEME -|*/
@@ -472,6 +462,9 @@ template {
   .nav__hamburger {
     display: flex;
     opacity: 1;
+  }
+  .nav__hamburger:hover {
+    color: #ffa600;
   }
 
   .nav__menu {
